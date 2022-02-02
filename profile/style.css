@@ -1,0 +1,94 @@
+.container {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+    line-height: 1.0;
+  }
+}
+
+body {
+  color : #0a0903;
+  background-color: #FFE162;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+
+}
+
+h1 {
+  color: #FF6464;
+  font-family: 'Quintessential', cursiveinde;
+  letter-spacing: 1px;
+  font-size: 55px;
+}
+
+h2 {
+  color : #91C483;
+  font-family: 'Teko', sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  font-size: 45px;
+}
+
+i {
+  color: orangered;
+}
+
+a {
+  color: orangered;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+a:hover {
+  color: #ffc100;
+
+}
+
+.border-bouton > a {
+  border: 1px dashed red;
+  border-radius: 15%;
+}
+
+.border-bouton > a:hover {
+  border: 1px dashed #ffc100;
+  border-radius: 15%;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+
+.card-white {
+  background: white;
+  padding: 20px;
+  border: 1px solid grey;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: 40px;
+  box-shadow: 4px 3px 3px #111b17;
+  border-radius: 10%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-align: center;
+}
